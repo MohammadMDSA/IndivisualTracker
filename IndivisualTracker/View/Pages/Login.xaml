@@ -8,5 +8,11 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource SystemControlAccentAcrylicWindowAccentMediumHighBrush}">
+		<StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+			<TextBox Header="Username:" Width="300" Margin="10"/>
+			<PasswordBox Header="Password:" Width="300" Margin="10"/>
+			<Button HorizontalAlignment="Center" Content="Submit" Margin="20"/>
+		</StackPanel>
     </Grid>
 </Page>
